@@ -7,12 +7,12 @@
     ;
 }
 
-.header {
+ .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 140px;
-}
+    padding: 20px 100px;
+ }
 
 
 .nav-title {
@@ -58,4 +58,30 @@
     height: 3px;
     background-color: black;
     margin: 3px 0;
+}
+.Banner{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner-Content h2{
+    font-weight: 700;
+    font-size: 56px;
+
+}
+.Banner-Content p{
+    font-size: 20px;
+    margin: 24px 0;
+
+}
+.Banner-Content button{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 12px;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
 }

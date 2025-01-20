@@ -18,5 +18,18 @@
     .hamburger {
         display: flex;
     }
+    .Banner{
+        padding: 20px 50px;
+        flex-direction: column-reverse;
+    }
+    .Banner-Content h2{
+        font-weight: 700;
+        font-size: 45px;
+    
+    }
+    .Banner-Content{
+        text-align: center;
+        margin-top: 20px;
+    }
     
 }
