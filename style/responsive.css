@@ -1,0 +1,22 @@
+@media screen and (max-width:576px) {
+    .header {
+        padding:20px 50px;
+    }
+    .navigation {
+        border-bottom: 1px solid #FEA301;
+        
+    }
+    .name{
+        display: none;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .Contact-btn{
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+    }
+    
+}
