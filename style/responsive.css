@@ -47,13 +47,34 @@
     .arrow{
         display: none;
     }
+    .story {
+        
+
+        
+    }
+    
     .story0{
         display: none;
     }
     .story1{
-        grid-template-columns: 1fr;
+        justify-content: center;
     }
-    .footer{
-        display: block;
+    .card1-btn{
+        position: absolute;
+        bottom: 180px;
+        left: 10px;
+        
+    }
+    footer{
+        overflow: hidden;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 50px;
+
+    }
+    .logo-content{
+        width: 300px;
+        font-size: 20px;
+        color: #FFF;
     }
 }

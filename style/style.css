@@ -187,7 +187,7 @@
     padding: 50px 100px;
     background: linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
     align-items: stretch;
-    
+
 }
 
 .story-title {
@@ -209,6 +209,7 @@
     position: relative;
     overflow: hidden;
 }
+
 .date-btn {
     position: absolute;
     bottom: 260px;
@@ -251,19 +252,23 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.card1{
+
+.card1 {
     position: relative;
 }
-.card1 img{
+
+.card1 img {
     border-radius: 10px 10px 0px 0px;
     width: 100%;
 }
-.card1-btn{
+
+.card1-btn {
     position: absolute;
     bottom: 120px;
     left: 20px;
-    
+
 }
+
 .card1-btn12 {
     color: #FFF;
     font-weight: 500;
@@ -274,61 +279,82 @@
     border: none;
 }
 
-.card1 h4{
+.card1 h4 {
     font-weight: 700;
     padding: 40px 50px;
-    border-radius:0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
     background: #FFF;
     margin-top: -5px;
 }
-footer{
+.veiw-all{
+    text-align: center;
+    margin-top: 40px;
+}
+.view-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+    background: #111;
+    padding: 10px 20px ;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer {
     display: flex;
     justify-content: space-around;
     background: #01ACFD;
     padding: 100px 150px;
 }
-.logo{
+
+.logo {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
 }
-.logo-img{
+
+.logo-img {
     background: white;
     width: 82px;
     border-radius: 20px;
 }
-.logo-title{
+
+.logo-title {
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
 }
-.logo-content{
+
+.logo-content {
     width: 400px;
     font-size: 20px;
     color: #FFF;
 }
-.about{
-   
-}
-.about-title{
+
+.about-title {
     color: #FFF;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
 }
+
 .about-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+
 }
-.about-list a{
+
+.about-list a {
     text-decoration: none;
     color: #FFF;
     font-size: 20px;
     font-weight: 500;
 }
-.social-title{
+
+.social-title {
     color: #FFF;
     font-size: 26px;
     font-weight: 700;
