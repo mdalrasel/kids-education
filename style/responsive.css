@@ -50,18 +50,18 @@
     .story-title {
         font-size: 30px;
     }
+    .story{
+        padding: 20px 50px;
+    }
     
-    .story0{
+    #box1{
         display: none;
     }
-    .story1{
+    .ourStories {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
-    }
-    .card1-btn{
-        position: absolute;
-        bottom: 180px;
-        left: 10px;
-        
+        gap: 20px;
     }
     footer{
         overflow: hidden;

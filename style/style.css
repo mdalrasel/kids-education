@@ -185,7 +185,7 @@
 
 .story {
     padding: 50px 100px;
-    background: linear-gradient(0deg,#fea3014d 0%, #ffffff4d 100%);
+    background: linear-gradient(0deg,#fea3014d 0%, #ffffff4d 100%),url(../assets/bg.png);
     align-items: stretch;
 
 }
@@ -198,95 +198,72 @@
 }
 
 .ourStories {
-
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 20px;
 }
-
-.story0 {
+.box{
+    background: white;
+    border-radius: 16px;
+    
+}
+#box1{
+    grid-column: span 2;
+    grid-row: span 3;
     position: relative;
-    overflow: hidden;
 }
-
-.date-btn {
-    position: absolute;
-    bottom: 260px;
-    left: 50px;
-
-}
-
-.date-btn12 {
-    color: #FFF;
-    font-weight: 500;
-    font-family: Raleway;
-    border-radius: 30px;
-    background: #3CD8E8;
-    padding: 15px 30px;
-    border: none;
-}
-
-.story0-img {
-    border-radius: 16px 16px 0px 0px;
-    border: none;
+.box-img{
     width: 100%;
+    border-radius: 16px 16px 0px 0px;
 }
-
-.story0-title {
+.box-container{
+    padding: 20px 50px;
+}
+.box-container h4{
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 30px;
 }
-
-.story0-container {
-    margin-top: -5px;
-    padding: 30px;
-    background-color: white;
-    border-radius: 0px 0px 16px 16px;
+.box-container p{
+    color: #666;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.btn{
+    position: absolute;
+    bottom:472px;
+    left: 50px;
+}
+.box-container-Btn{
+    color: #FFF;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background: #3CD8E8;
     border: none;
 }
 
-.story1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+.box-container2{
+    padding: 20px 50px;
 }
-
-.card1 {
+.box-container2 h4{
+    font-weight: 700;
+}
+.box-container-Btn2{
+    color: #FFF;
+    border-radius: 30px;
+    padding:5px 10px;
+    background: #95B226;
+    border: none;
+}
+.box{
     position: relative;
 }
-
-.card1 img {
-    border-radius: 10px 10px 0px 0px;
-    width: 100%;
-}
-
-.card1-btn {
+.btn2{
     position: absolute;
-    bottom: 120px;
+    bottom: 90px;
     left: 20px;
-
 }
-
-.card1-btn12 {
-    color: #FFF;
-    font-weight: 500;
-    font-family: Raleway;
-    border-radius: 30px;
-    background: #95B226;
-    padding: 10px 20px;
-    border: none;
-}
-
-.card1 h4 {
-    font-weight: 700;
-    padding: 40px 50px;
-    border-radius: 0px 0px 10px 10px;
-    background: #FFF;
-    margin-top: -5px;
-}
-.veiw-all{
+.view-all{
     text-align: center;
     margin-top: 40px;
 }
