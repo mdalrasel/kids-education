@@ -65,6 +65,26 @@
     margin: 3px 0;
 }
 
+/* marquee section */
+.marquee{
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+}
+.marquee h4{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    background: #F0AA00;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+.marquee marquee{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
 .Banner {
     padding: 20px 100px;
     display: flex;

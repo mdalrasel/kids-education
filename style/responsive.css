@@ -18,6 +18,9 @@
     .hamburger {
         display: flex;
     }
+    .marquee{
+        padding: 20px;
+    }
     .Banner{
         padding: 20px 50px;
         flex-direction: column-reverse;
