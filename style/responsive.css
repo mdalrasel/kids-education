@@ -47,10 +47,8 @@
     .arrow{
         display: none;
     }
-    .story {
-        
-
-        
+    .story-title {
+        font-size: 30px;
     }
     
     .story0{

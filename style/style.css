@@ -135,7 +135,7 @@
 }
 
 .box3 {
-    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    background: linear-gradient(180deg, #EEE1FF 0%, #ffffff00 40%), #FFF;
     box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
     text-align: center;
     padding: 40px;
@@ -185,7 +185,7 @@
 
 .story {
     padding: 50px 100px;
-    background: linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
+    background: linear-gradient(0deg,#fea3014d 0%, #ffffff4d 100%);
     align-items: stretch;
 
 }
