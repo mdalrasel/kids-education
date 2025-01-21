@@ -31,6 +31,9 @@
         text-align: center;
         margin-top: 20px;
     }
+    .Banner-img{
+        width: 330px;
+    }
     .curriculum {
         padding: 20px 50px;
     }
@@ -40,5 +43,17 @@
     
     .Curriculum-card {
         flex-direction: column;
+    }
+    .arrow{
+        display: none;
+    }
+    .story0{
+        display: none;
+    }
+    .story1{
+        grid-template-columns: 1fr;
+    }
+    .footer{
+        display: block;
     }
 }
