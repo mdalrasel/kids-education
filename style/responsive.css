@@ -31,5 +31,14 @@
         text-align: center;
         margin-top: 20px;
     }
+    .curriculum {
+        padding: 20px 50px;
+    }
+    .curriculum-title {
+        font-size: 27px;
+    }
     
+    .Curriculum-card {
+        flex-direction: column;
+    }
 }

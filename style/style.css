@@ -7,12 +7,12 @@
     ;
 }
 
- .header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
- }
+}
 
 
 .nav-title {
@@ -20,11 +20,13 @@
     gap: 10px;
     align-items: center;
 }
-.name{
+
+.name {
     font-size: 32px;
     font-weight: 700;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     gap: 20px;
 }
@@ -32,21 +34,24 @@
 .nav-menu li {
     list-style: none;
 }
-.nav-menu li a{
+
+.nav-menu li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
 }
-.Contact-btn{
+
+.Contact-btn {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
     padding: 10px 20px;
     border-radius: 12px;
-    background-color:#FEA301 ;
+    background-color: #FEA301;
     border: none;
     cursor: pointer;
 }
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -59,24 +64,27 @@
     background-color: black;
     margin: 3px 0;
 }
-.Banner{
+
+.Banner {
     padding: 20px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Banner-Content h2{
+.Banner-Content h2 {
     font-weight: 700;
     font-size: 56px;
 
 }
-.Banner-Content p{
+
+.Banner-Content p {
     font-size: 20px;
     margin: 24px 0;
 
 }
-.Banner-Content button{
+
+.Banner-Content button {
     font-size: 20px;
     font-weight: 700;
     color: #FFF;
@@ -84,4 +92,61 @@
     background-color: black;
     padding: 10px 20px;
     border: none;
+}
+
+.curriculum {
+    margin-top: 50px;
+    background-image: url(../assets/bg.png);
+    padding: 50px 100px;
+}
+
+.curriculum-title {
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Curriculum-card {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box1 {
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    text-align: center;
+    padding: 40px;
+    border-radius: 18px;
+}
+
+.box2 {
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    text-align: center;
+    padding: 40px;
+    border-radius: 18px;
+}
+
+.box3 {
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    text-align: center;
+    padding: 40px;
+    border-radius: 18px;
+}
+
+.kinder {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.kinder-btn {
+    margin-top: 10px;
+    color: #64C8FF;
+    font-weight: 700;
+    border: none;
+    background: none;
 }
