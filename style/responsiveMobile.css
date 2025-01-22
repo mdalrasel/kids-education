@@ -60,6 +60,12 @@
     #box1{
         display: none;
     }
+    .btn2{
+        position: absolute;
+        bottom: 150px;
+        left: 20px;
+        
+    }
     .ourStories {
         grid-template-columns: repeat(2, 1fr);
     }

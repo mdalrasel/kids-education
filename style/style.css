@@ -220,7 +220,7 @@
 .ourStories {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
+    justify-content:center;
     gap: 20px;
 }
 .box{
@@ -251,11 +251,12 @@
 }
 .btn{
     position: absolute;
-    bottom:472px;
+    bottom:470px;
     left: 50px;
 }
 .box-container-Btn{
     color: #FFF;
+    font-family: "Raleway";
     border-radius: 30px;
     padding: 10px 20px;
     background: #3CD8E8;
@@ -270,10 +271,12 @@
 }
 .box-container-Btn2{
     color: #FFF;
+    font-family: "Raleway";
     border-radius: 30px;
     padding:5px 10px;
     background: #95B226;
     border: none;
+    
 }
 .box{
     position: relative;
@@ -282,6 +285,7 @@
     position: absolute;
     bottom: 90px;
     left: 20px;
+    
 }
 .view-all{
     text-align: center;
