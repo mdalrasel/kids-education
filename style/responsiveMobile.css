@@ -4,7 +4,6 @@
     }
     .navigation {
         border-bottom: 1px solid #FEA301;
-        
     }
     .name{
         display: none;
@@ -28,7 +27,6 @@
     .Banner-Content h2{
         font-weight: 700;
         font-size: 45px;
-    
     }
     .Banner-Content{
         text-align: center;
@@ -64,7 +62,6 @@
         position: absolute;
         bottom: 150px;
         left: 20px;
-        
     }
     .ourStories {
         grid-template-columns: repeat(2, 1fr);
@@ -74,7 +71,6 @@
         flex-direction: column;
         gap: 30px;
         padding: 20px 50px;
-
     }
     .logo-content{
         width: 300px;

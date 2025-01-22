@@ -1,30 +1,30 @@
 @media screen and (min-width:577px) and (max-width:992px) {
+
     .header {
         padding:20px 50px;
     }
+    
     .marquee{
         padding: 20px 50px;
     }
-    .Banner{
+    .Banner,.curriculum,.story{
         padding: 20px 50px;
     }
-    .curriculum {
-        padding: 20px 50px;
-    }
-    .story{
-        padding: 20px 50px;
-    }
+
     #box1{
         display: none;
     }
+
     .ourStories {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .btn2{
         position: absolute;
         bottom: 95px;
         left: 20px;
     }
+
     footer{
         overflow: hidden;
         padding:100px 50px;
